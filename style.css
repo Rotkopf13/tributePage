@@ -1,0 +1,109 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+@font-face {
+	font-family: "Monda";
+	src: url("fonts/Monda-Regular.eot");
+	src: local("☺"), url("fonts/Monda-Regular.woff") format("woff"), url("fonts/Monda-Regular.ttf") format("truetype"), url("fonts/Monda-Regular.svg") format("svg");
+}
+
+body {
+	font-family: "Monda";
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	height: auto;
+	background-color: #d3d3d3;
+	border-radius: 4px;
+	margin: 30px 10px 30px 10px;
+}
+
+#title {
+	margin: 0 auto;
+}
+
+#title h1 {
+	font-size: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#title span {
+	padding-left: 16%;
+	font-size: 17px;
+}
+
+#img-div {
+	background-color: hsl(0, 0%, 100%);
+	opacity: 1.0;
+	max-width: 100%;
+	height: auto;
+	margin: 15px 10px 30px 10px;
+}
+
+#image {
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+	height: auto;
+}
+
+#img-caption p {
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 30px;
+}
+
+#main h2 {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#main ul {
+	padding-left: 30%;
+	padding-right: 35%;
+	line-height: 1.5;
+}
+
+#main li {
+	margin: 20px 0px;
+}
+
+i {
+	padding-left: 30%;
+	padding-right: 35%;
+}
+
+#footer p {
+	font-weight: 800;
+	font-size: 22px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	#title h1 {
+		font-size: 30px;
+	}
+
+	#title span {
+		padding-left: 13%;
+		font-size: 14px;
+	}
+
+	#main ul {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	i {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
